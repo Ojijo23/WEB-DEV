@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="hp.css">
-    <!-- <script src="https://kit.fontawesome.com/00698d491f.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/00698d491f.js" crossorigin="anonymous"></script>
     <style>
         body{
             background-image: url("Man\ driving\ car\ -\ 1280x854\ 1.png");
@@ -12,22 +12,26 @@
         .searchFunc input[type=text]{
             background: transparent url("search.svg") no-repeat 13px;
         }
+        .topnav input[type=text]{
+            background: transparent url("search.svg") no-repeat 13px; 
+        }
     </style>
     <title>CAR STORE</title>
 </head>
 <body>
     <div class="topnav">
-        <!-- <i class="fa-solid fa-user"></i> -->
+     
         <a class="active" href="#home">HOME</a>
         <a href="#stocklist">STOCKLIST</a>
         <a href="#about">ABOUT</a>
         <a href="#contact">CONTACT US</a>
-        <input type="text" placeholder="Search ">
+        <input class="smth1" type ="text" placeholder="Search ">
+        <i id="icon-user" class="fa-solid fa-user"></i>
       </div>
     
       <div class="searchFunc">
         <p > FIND YOUR DREAM CAR</p>
-        <input type="text" placeholder="Search Make">
+        <input  class = "smth2" type ="text" placeholder="Search Make">
 
       </div>
 </body>

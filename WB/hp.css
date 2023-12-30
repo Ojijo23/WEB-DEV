@@ -31,6 +31,8 @@
     color: rgb(8, 131, 158);
     
   }
+  
+  /* search bar in navigation bar */
   .topnav input[type=text]{
     float: right;
     padding: 6px;
@@ -41,6 +43,7 @@
     font-size: 17px;
     }
 
+  /* search bar in body */
   .searchFunc input[type=text]{
   float: left;
   padding: 6px;
@@ -76,4 +79,8 @@
   position: relative;
   left:38%;
   padding-top: 9.5px;
+}
+
+.smth2{
+  background-color: #ddd;
 }

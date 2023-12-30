@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    place-items: center;
+  }
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.list p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: rgb(8, 131, 158);
+}
+
+img{
+    object-fit: cover;
+    height: 65%;
+    width: 65%;
+    object-fit: contain;
+}
+
+.logos{
+    display: grid;
+    width: 80%;
+    padding-left: 60px;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 1em;
+  
+}
